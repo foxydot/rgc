@@ -195,6 +195,11 @@ body {
 #title a:hover {
 	color: #fff;
 	text-decoration: none;
+	background: url('images/RGC_logo.png') no-repeat center left transparent;
+	text-indent: -9999px;
+	height: 80px;
+	background-size: contain;
+	display: inline-block;
 }
 
 #description {
