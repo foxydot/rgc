@@ -197,7 +197,7 @@ body {
 	text-decoration: none;
 	background: url('images/RGC_logo.png') no-repeat center left transparent;
 	text-indent: -9999px;
-	height: 80px;
+	height: 100px;
 	background-size: contain;
 	display: inline-block;
 }
@@ -218,6 +218,10 @@ body {
 
 /* Image Header - Partial Width
 ------------------------------------------------------------ */
+.header-image #title-area,
+.custom-header #title-area{
+	margin: 10px 0;
+}
 
 .header-image #title-area,
 .header-image #title,
@@ -231,8 +235,7 @@ body {
 	overflow: hidden;
 	padding: 0;
 	text-indent: -9999px;
-	width: 300px;
-	margin: 10px 0;
+	width: 150px;
 }
 
 .header-image #description,
@@ -1689,8 +1692,9 @@ body.associate-white {
 
 .associate-white #header ul.menu li.noline a,
 .associate-white #nav li.noline a,
-.associate-white #nav li.noline a  {
-	background: none;
+.associate-white #nav li.noline a ,
+.associate-white #nav li.last-child a  {
+	background: none !important;
 }
 
 .associate-white #header ul.menu li a:hover,
