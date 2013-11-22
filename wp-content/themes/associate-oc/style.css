@@ -221,7 +221,10 @@ body {
 
 .header-image #title-area,
 .header-image #title,
-.header-image #title a {
+.header-image #title a,
+.custom-header #title-area,
+.custom-header #title,
+.custom-header #title a {
 	display: block;
 	float: left;
 	height: 120px;
@@ -231,7 +234,8 @@ body {
 	width: 300px;
 }
 
-.header-image #description {
+.header-image #description,
+.custom-header #description {
 	display: block;
 	overflow: hidden;
 }
