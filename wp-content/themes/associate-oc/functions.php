@@ -3,7 +3,7 @@
 include_once( get_template_directory() . '/lib/init.php' );
 
 /** Create additional color style options */
-add_theme_support( 'genesis-style-selector', array( 'associate-gray' => 'Gray', 'associate-green' => 'Green', 'associate-red' => 'Red' ) );
+add_theme_support( 'genesis-style-selector', array( 'associate-white' => 'White', 'associate-gray' => 'Gray', 'associate-green' => 'Green', 'associate-red' => 'Red' ) );
 
 /** Child theme (do not remove) */
 define( 'CHILD_THEME_NAME', 'Associate Theme' );
