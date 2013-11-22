@@ -227,11 +227,12 @@ body {
 .custom-header #title a {
 	display: block;
 	float: left;
-	height: 120px;
+	height: 100px;
 	overflow: hidden;
 	padding: 0;
 	text-indent: -9999px;
 	width: 300px;
+	margin: 10px 0;
 }
 
 .header-image #description,
