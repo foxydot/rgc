@@ -583,7 +583,7 @@ li a .sf-sub-indicator {
 
 .featured {
 	margin: 0 auto;
-	height: 430px;
+	height: auto;
 	padding: 0 0 25px;
 	width: 910px;
 }
@@ -1784,16 +1784,16 @@ body.associate-white {
 
 .associate-white .home-bottom-1 h4,
 .associate-white .home-middle-1 h4 {
-	background: url(images/white/headline-1.png);
+	background: #40C3E4;
 }
 
 .associate-white .home-middle-2 h4 {
-	background: url(images/white/headline-2.png);
+	background: #4E829F;
 }
 
 .associate-white .home-bottom-2 h4,
 .associate-white .home-middle-3 h4 {
-	background: url(images/white/headline-3.png);
+	background: #404B5B;
 }
 
 .associate-white div.gform_footer input.button,
