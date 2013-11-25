@@ -32,4 +32,13 @@ jQuery(document).ready(function($) {
         }
     });
     
+    $('.header_tool_toggler').click(function(){
+        $('.header_social_block').addClass('head_hided');
+        $('div.header_tool_block').removeClass('toggled');
+        $(this).parent('.header_tool_block').addClass('toggled');
+    });
+    $('.header_social_toggler').click(function(){
+        $('div.header_tool_block').removeClass('toggled');
+        $('.header_social_block').removeClass('head_hided');
+    });
 });

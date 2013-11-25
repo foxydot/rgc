@@ -68,6 +68,29 @@ genesis_register_sidebar( array(
 ) );
 
 /*
+ * Add some header tools
+ */
+add_action('genesis_header_right','msdlab_add_header_tools');
+function msdlab_add_header_tools(){
+    print '<div class="header_tools"><!-- .header_social_block -->
+            <div class="header_social_block header_tool_block head_hided">
+                <a class="header_social_toggler header_tool_toggler" href="javascript:void(0)"></a>
+                <div class="header_social_content">
+                        ';
+                        do_shortcode('[msd-social]');
+    print '            </div>
+            </div><!-- .header_social_block -->
+                <div class="header_search_block header_tool_block">
+                    <a class="header_search_toggler header_tool_toggler" href="javascript:void(0)"></a>
+                    <div class="header_search_content">
+                        '.genesis_search_form().'
+                    </div>
+            </div>
+            </div>';
+}
+
+
+/*
  * Add styles and scripts
 */
 //add_action('wp_enqueue_scripts', 'msdlab_add_styles');

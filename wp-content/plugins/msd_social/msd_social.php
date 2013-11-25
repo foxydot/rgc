@@ -77,7 +77,7 @@ function copyright($address = TRUE){
 
 function social_media($attr){
 	?>
-	<div id="social-media" class="social-media">
+	<div id="social-media" class="msdsocial-media">
 			<?php if(get_option('msdsocial_linkedin_link')!=""){ ?>
 			<a href="<?php echo get_option('msdsocial_linkedin_link'); ?>" class="li" title="LinkedIn" target="_blank">LinkedIn</a>
 			<?php }?>
